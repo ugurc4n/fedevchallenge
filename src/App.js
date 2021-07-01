@@ -1,7 +1,7 @@
 import React from 'react';
-import './App.css';
+import './style/App.css';
 import Movie from "./components/navbar";
-import Sections from "./components/sectionone"
+import Sections from "./components/sections"
 
 function App() {
 

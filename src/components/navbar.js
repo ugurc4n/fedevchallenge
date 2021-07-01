@@ -1,10 +1,11 @@
 import React from 'react'
-import './navbar.css'
+import '../style/navbar.css'
 
 const Movie = () =>
+<div>
   <div className="container">
     <nav className="navbar">
-      <ul className='movie-list'>
+      <ul className='nav-list'>
         <li>
           <a href="#">Film</a>
         </li>
@@ -20,8 +21,9 @@ const Movie = () =>
       </ul>
         <input type="text" placeholder="Arama" name="search"/>
     </nav> 
-      <div className="main-text" >
+      <div className="main-title">
         <h1>LOREM İPSUM</h1>
       </div>
-  </div>;
+  </div>
+  </div>
 export default Movie;
