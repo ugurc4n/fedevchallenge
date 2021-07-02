@@ -1,11 +1,11 @@
 import React from 'react'
 import '../style/navbar.css'
 
-const Movie = () =>
-<div>
-  <div className="container">
+const Navbar = () =>
+<div className="background">
+  <div className="main-nav">
     <nav className="navbar">
-      <ul className='nav-list'>
+      <div className='nav-list'>
         <li>
           <a href="#">Film</a>
         </li>
@@ -18,12 +18,13 @@ const Movie = () =>
         <li>
           <a href="#">Canlı Yayın</a>
         </li>
-      </ul>
-        <input type="text" placeholder="Arama" name="search"/>
-    </nav> 
-      <div className="main-title">
-        <h1>LOREM İPSUM</h1>
       </div>
+      <input type="text" placeholder="Arama" name="search"/>
+    </nav>
+    <div className="main-title">
+      <p>LOREM IPSUM </p>
+      <p className="bold">DOLOR SIT AMET</p>
+    </div>
   </div>
-  </div>
-export default Movie;
+</div>
+export default Navbar;
